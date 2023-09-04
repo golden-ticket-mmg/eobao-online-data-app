@@ -1,6 +1,6 @@
 server:
   port:
-    9503
+    9502
   error:
     include-message: always
     include-binding-errors: always

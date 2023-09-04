@@ -18,7 +18,7 @@ public class RestEntryPoint {
     }
 
     @GetMapping("/{arn}")
-    public Company getBook(@PathVariable String arn) {
+    public Company getCompany(@PathVariable String arn) {
         return companyDetailsService.findByArn(arn);
     }
 
