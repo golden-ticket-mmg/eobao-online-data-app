@@ -1,6 +1,10 @@
 server:
   port:
     9503
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-exception: true
 spring:
   application:
     name: eobao-online-data-app

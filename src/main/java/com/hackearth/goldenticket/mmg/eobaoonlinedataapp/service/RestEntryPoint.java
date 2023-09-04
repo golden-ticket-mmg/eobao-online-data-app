@@ -1,6 +1,6 @@
 package com.hackearth.goldenticket.mmg.eobaoonlinedataapp.service;
 
-import com.hackearth.goldenticket.mmg.eobaoonlinedataapp.data.CompanyDetails;
+import com.hackearth.goldenticket.mmg.eobaoonlinedataapp.data.Company;
 import com.hackearth.goldenticket.mmg.eobaoonlinedataapp.data.CompanyType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,16 +11,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("online-data")
 public class RestEntryPoint {
 
-    @GetMapping("/{arn}")
-    public CompanyDetails getBook(@PathVariable String arn) {
-        return findBookById(arn);
+    private CompanyDetailsService companyDetailsService;
+
+    public RestEntryPoint(CompanyDetailsService companyDetailsService) {
+        this.companyDetailsService = companyDetailsService;
     }
 
-    private CompanyDetails findBookById(String id) {
-        return CompanyDetails.builder()
-                .arn("1234")
-                .companyName("Big Company Ltd")
-                .companyType(CompanyType.LTD)
-                .build();
+    @GetMapping("/{arn}")
+    public Company getBook(@PathVariable String arn) {
+        return companyDetailsService.findByArn(arn);
     }
+
 }

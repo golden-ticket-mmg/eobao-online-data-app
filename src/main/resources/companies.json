@@ -1,0 +1,14 @@
+{
+  "companies": [
+    {
+      "arn": "1",
+      "name": "small",
+      "type": "LTD"
+    },
+    {
+      "arn": "2",
+      "name": "big",
+      "type": "LTD"
+    }
+  ]
+}
