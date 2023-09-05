@@ -16,6 +16,7 @@ public class CompanyDetailsServiceImpl implements CompanyDetailsService {
         this.companyRepository = companyRepository;
     }
 
+    @Override
     public Company findByArn(String arn) {
         log.info("Looking for company by ARN {} in repo", arn);
         Optional<Company> optCompany = companyRepository.findById(arn);
