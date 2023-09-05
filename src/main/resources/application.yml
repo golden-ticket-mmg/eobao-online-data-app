@@ -15,3 +15,13 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+logging:
+  file.name: logs/eobao-online-data-app.log
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.hackearth: DEBUG
+    org.hibernate: INFO
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"

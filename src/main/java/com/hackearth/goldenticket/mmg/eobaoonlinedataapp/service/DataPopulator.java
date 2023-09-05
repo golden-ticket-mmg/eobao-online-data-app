@@ -22,6 +22,7 @@ public class DataPopulator {
     @PostConstruct
     @SneakyThrows
     public void init() {
+        log.info("Pre-population company data ...");
         InputStream in
                 = this.getClass().getClassLoader().getResourceAsStream("companies.json");
         ObjectMapper mapper = new ObjectMapper();
