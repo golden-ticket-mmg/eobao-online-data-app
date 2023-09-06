@@ -2,13 +2,13 @@
   "getstartedinfos": [
     {
       "arn": "1",
-      "firstName": "A",
-      "lastName": "B",
+      "firstName": "Peter",
+      "lastName": "Lee",
       "dateOfBirth" : "01/01/1970",
-      "mobileNumber" : "07000000000",
+      "mobileNumber" : "0789456123",
       "countryOfBirth" : "United Kingdom",
       "nationality" : "British",
-      "address" : "123 The Road, Town, England"
+      "address" : "No 82, Cherry Road"
     },
     {
       "arn": "2",

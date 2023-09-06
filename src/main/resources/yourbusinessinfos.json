@@ -2,8 +2,8 @@
   "yourbusinessinfos": [
     {
       "arn": "1",
-      "businessName": "ABC Limited",
-      "website": "www.abc.co.uk",
+      "businessName": "Peter's Fish & Chips",
+      "website": "http://peter.fish.chips/",
       "startedTradingSince": "01/01/2000"
     },
     {
