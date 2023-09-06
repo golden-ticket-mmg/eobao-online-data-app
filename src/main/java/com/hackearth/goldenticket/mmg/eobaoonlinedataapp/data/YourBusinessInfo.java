@@ -19,4 +19,11 @@ public class YourBusinessInfo {
     @Id
     private String arn;
 
+    private String businessName;
+
+    private String website;
+
+    private String startedTradingSince;
+
+
 }

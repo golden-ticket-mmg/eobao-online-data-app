@@ -1,0 +1,17 @@
+{
+  "yourbusinessinfos": [
+    {
+      "arn": "1",
+      "businessName": "ABC Limited",
+      "website": "www.abc.co.uk",
+      "startedTradingSince": "01/01/2000"
+    },
+    {
+      "arn": "2",
+      "businessName": "XYZ Limited",
+      "website": "www.xyz.co.uk",
+      "startedTradingSince": "01/01/2010"
+
+    }
+  ]
+}

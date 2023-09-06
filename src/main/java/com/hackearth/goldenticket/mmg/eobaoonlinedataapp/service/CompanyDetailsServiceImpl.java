@@ -57,7 +57,7 @@ public class CompanyDetailsServiceImpl implements CompanyDetailsService {
         log.info("Looking for your business info by ARN {} in repo", arn);
         Optional<YourBusinessInfo> yourBusinessInfoOpt = yourBusinessInfoRepository.findById(arn);
         if (yourBusinessInfoOpt.isPresent()) {
-            log.info("Found for ARN {} get started info {}", arn, yourBusinessInfoOpt.get());
+            log.info("Found for ARN {} your business info {}", arn, yourBusinessInfoOpt.get());
             return yourBusinessInfoOpt.get();
         }
         throw new OnlineDataException(

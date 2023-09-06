@@ -1,0 +1,24 @@
+{
+  "getstartedinfos": [
+    {
+      "arn": "1",
+      "firstName": "A",
+      "lastName": "B",
+      "dateOfBirth" : "01/01/1970",
+      "mobileNumber" : "07000000000",
+      "countryOfBirth" : "United Kingdom",
+      "nationality" : "British",
+      "address" : "123 The Road, Town, England"
+    },
+    {
+      "arn": "2",
+      "firstName": "Y",
+      "lastName": "Z",
+      "dateOfBirth" : "01/01/1989",
+      "mobileNumber" : "07800000000",
+      "countryOfBirth" : "France",
+      "nationality" : "French",
+      "address" : "123 The Road, Paris, France"
+    }
+  ]
+}
